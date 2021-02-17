@@ -1,1 +1,0 @@
-# osmskt.github.io
