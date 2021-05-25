@@ -1,0 +1,25 @@
+@font-face
+{
+    font-family: 		AGCrownStyle Oblique; /* Гарнитура шрифта */
+    src: 				url(../res/agcrownstyle_oblique.ttf); /* Путь к файлу со шрифтом */
+}
+body
+{	
+	background:			#dcdfe4;
+	padding:			20px;
+	font-family: 		AGCrownStyle Oblique, 'Comic Sans MS', cursive;
+}
+h2
+{
+	color:				#666b3a;
+	text-align:			center;
+}
+img
+{
+	margin: 			20px 4% 0;
+}
+.photo_box
+{
+	text-align:			center;
+	margin: 			2% 0 4%;
+}
