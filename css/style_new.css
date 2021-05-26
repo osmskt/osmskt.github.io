@@ -59,7 +59,8 @@ body
 	margin:				3%;
 	text-align:			justify;
 	text-indent:		2em;
-	font-size:			3vmin;
+	/* font-size:			3vmin; */
+	font-size: 			calc( (70vw — 30rem)/100 + .5rem);
 }
 .block_0 a:link
 {
