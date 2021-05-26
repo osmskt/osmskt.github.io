@@ -1,17 +1,17 @@
 @font-face
 {
-    font-family: 		AGCrownStyle Oblique; /* Гарнитура шрифта */
-    src: 				url(../res/agcrownstyle_oblique.ttf); /* Путь к файлу со шрифтом */
+	font-family: 		'Roboto Regular';
+	src: 				url('../res/roboto-regular.ttf');
 }
 body
 {	
 	background:			#dcdfe4;
 	padding:			20px;
-	font-family: 		AGCrownStyle Oblique, Roboto;
+	font-family: 		'Roboto Regular';
 }
 h2
 {
-	color:				#666b3a;
+	color:				#336666;
 	text-align:			center;
 }
 img

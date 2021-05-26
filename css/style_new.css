@@ -1,14 +1,14 @@
 @font-face
 {
-    font-family: 		AGCrownStyle Oblique; /* Гарнитура шрифта */
-    src: 				url(../res/agcrownstyle_oblique.ttf); /* Путь к файлу со шрифтом */
+	font-family: 		'Roboto Regular';
+	src: 				url('../res/roboto-regular.ttf');
 }
 body
 {	
-	background:			#adab76;
-	font-family: 		AGCrownStyle Oblique, Roboto;
+	background:			#336666;
+	padding:			20px;
+	font-family: 		'Roboto Regular';
 }
-
 .block_0
 {
 	position:			relative;
@@ -17,12 +17,12 @@ body
 	border:				1px solid #000;
 	margin:				.3% 5% .3%;
 	background:			#dcdfe4;
-	padding:			3%;
+	padding:			2%;
 	border-radius:		1em;
 }
 .block_0:nth-child(2)
 {
-	margin:				1% 5% .3%;
+	margin:				.3% 5% .3%;
 	
 }
 .block_0:nth-last-child(1)
@@ -31,79 +31,53 @@ body
 }
 .block_0 h1
 {
-	color:				#0f211a;
+	color:				#336666;
 	text-align:			center;
 	line-height: 		3;
-	font-size: 			3vh;
+	font-size: 			2.9vh;
 }
 .block_0 h2
 {
 	
-	color:				#0f211a;
+	color:				#336666;
 	text-align:			left;
 	line-height: 		3;
-	font-size: 			2.9vh;
+	font-size: 			2.8vh;
 	
 }
 .block_0 h3
 {
-	color:				#0f211a;
+	color:				#336666;
 	text-align:			center;
 	line-height: 		3;
-	font-size: 			2.8vh;	
+	font-size: 			2.7vh;	
 }
 .block_0 p
 {
 	color:				#0f211a;
-	font-size:			3.2vmin;
 	line-height: 		1.5;
-	margin-bottom:		3%;
+	margin:				3%;
 	text-align:			justify;
 	text-indent:		2em;
+	font-size:			2.4vmin;
+}
+.block_0 a:link
+{
+	color:				#0f211a;
+}
+.block_0 a:visited
+{
+	color:				#336666;
+}
+.block_0 a:hover
+{
+	text-decoration: 	none;
+	color:				#0f211a;
 }
 /*/////////////////////////////////			Свойства фото. Начало		/////////////////////////////*/	
-.photo_box
+.block_0 img
 {
-	text-align:			center;
-	margin: 			2% 0 4%;
-}
-.img_1
-{
-    background: 		url(../res/wi-fi_socket_1.jpg);
-}
-.img_2
-{
-    background: 		url(../res/wi-fi_socket_2.jpg);
-}
-.img_3
-{
-    background: 		url(../res/wi-fi_socket_3.jpg);
-}
-.img_wow
-{
-	position: 			relative;
-	display: 			inline-block ;
-	width: 				200px; 								/* Ширина рисунка */
-    height: 			200px; 								/*  Высота рисунка */
-	margin: 			20px 3% 0;
-	transition: 		1s opacity;
-}
-.img_wow:after
-{
-	content: 			"";
-	background: 		inherit;
-	position: 			absolute;
-	top: 				0;
-	left: 				0;
-	bottom: 			0;
-	right: 				0;
-	background-position:-200px 0px;
-	opacity: 			0;
-	transition: 		1s opacity;
-}
-.img_wow:hover:after
-{
-    opacity:			1;
+	margin: 			20px 1% 0;
 }
 /*/////////////////////////////////			Свойства фото. Конец		/////////////////////////////*/	
 #floatTip 
@@ -166,7 +140,7 @@ nav>ul
     display:					block;
     width:						220px;
     margin:						0;
-    padding:					80px 0 20px;
+    padding:					100px 0 20px;
     text-transform:				uppercase;
     line-height:				2em;
     background-color:			#2c2c2c;
@@ -202,7 +176,7 @@ nav a
 }
 nav ul ul a
 {
-	color:						#344974;
+	color:						#0f211a;
 	text-align:					right;
 	margin-right:				20px;
 }
