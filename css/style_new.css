@@ -79,6 +79,7 @@ body
 .block_0 img
 {
 	margin: 			20px 1% 0;
+	width:				200px;
 }
 /*/////////////////////////////////			Свойства фото. Конец		/////////////////////////////*/	
 #floatTip 
@@ -150,7 +151,7 @@ nav>ul
     transform:					translateX(-100%);
     transition:					transform .3s;
     will-change:				transform;
-    backface-visibility:		hidden;
+    backface-visibility :	   	hidden;
 }
 nav ul ul
 {
