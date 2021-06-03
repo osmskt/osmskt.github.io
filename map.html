@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ</title>
+		<meta name='viewport' 				content='width=device-width, initial-scale=1'>
+		<meta http-equiv='x-ua-compatible' 	content='ie=edge'>
+		<meta name='author' 				content='Kuzmenko Vadim aka woxx'>
+		<meta name='description' 			content='Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ'>
+		<meta name='keywords' 				content='освіта,сім’я,молодь,спорт,культура,туризм,комарська,сільська,рада'>
+		<link rel='stylesheet' 				href='css/reset.css'>
+		<link rel='stylesheet' 				href='css/style_map.css'>
+		<link rel='shortcut icon' 			href='favicon.ico'>
+		<script src='js/script.js'></script>
+	</head>
+	<body>
+<!--Многоуровневое, выдвигающееся из-за края экрана при нажатии на логотип, меню. Начало-->
+		<nav>
+			<input type="checkbox" id="showmenu"/>
+			<label for="showmenu" class="showmenu"><img id='ggg' src='res/logo.png' alt='' title='Меню'></label>
+			<ul>
+				<li><a href="#" onclick='toggle_visibility(".hide_edu");'>Об’єкти освіти</a></li>
+				<li><a href="#" onclick='toggle_visibility(".hide_club");'>Об’єкти культури</a></li>
+				<li><a href="#">Об’єкти туризму</a></li>
+				<li><a href="#" onclick='toggle_visibility(".hide_stadium");'>Об’єкти спорту</a></li>
+				<li><a href="#" onclick='toggle_visibility(".hide_km");'>Відстань(км)</a></li>
+			</ul>
+		</nav>
+<!--Многоуровневое, выдвигающееся из-за края экрана при нажатии на логотип, меню. Конец-->
+		<section class='block_0' id='block_1'>
+			<img style='width: 100%;' src='res/map.png' title='Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ.
+Для керування натисніть на значок меню зліва-вгорі.' alt=''/>
+<!--///////////////////////////////            Школи-->
+
+			<img id='zg_school'  onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";' class='hide_edu' style='position: absolute; top: 11%; left: 43%; width: 2%;' src='res/school.png' title='Зеленогайська школа
+76 учнів' alt=''>
+			<img id='pd_school' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 32%; left: 50%; width: 2%;' src='res/school.png' title='Піддубненська школа
+66 учнів' alt=''>
+			<img id='k_school' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 44%; left: 59%; width: 2%;' src='res/school.png' title='Комарська школа
+134 учнів' alt=''>
+			<img id='v_school' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 59%; left: 60%; width: 2%;' src='res/school.png' title='Веселівська школа
+63 учнів' alt=''>
+			<img id='sh_school' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 72.5%; left: 48%; width: 2%;' src='res/school.png' title='Шевченківська школа
+151 учнів' alt=''>
+<!--///////////////////////////////            Дитячі Садочки-->
+			<img id='zg_kindergarten' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 10.5%; left: 45%; width: 2%;' src='res/kindergarten.png' title='Зеленогайський дитячий садочок
+20 діточок' alt=''>
+			<img id='k_kindergarten' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 43.5%; left: 61%; width: 2%;' src='res/kindergarten.png' title='Комарський дитячий садочок
+37 діточок' alt=''>
+			<img id='sh_kindergarten' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 71.5%; left: 50%; width: 2%;' src='res/kindergarten.png' title='Шевченківський дитячий садочок
+27 діточок' alt=''>
+<!--///////////////////////////////            Об’єкти культури-->
+			<img id='zg_club' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_club' style='position: absolute; top: 11%; left: 41%; width: 2%;' src='res/club.png' title='Зеленогайський будинок культури' alt=''>
+			<img id='k_club' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_club' style='position: absolute; top: 44%; left: 57%; width: 2%;' src='res/club.png' title='Комарський будинок культури' alt=''>
+			<img id='sh_club' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_club' style='position: absolute; top: 72.5%; left: 46%; width: 2%;' src='res/club.png' title='Шевченківський будинок культури' alt=''>
+<!--///////////////////////////////            Об’єкти спорту-->
+			<img id='k_stadium' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_stadium' style='position: absolute; top: 50.5%; left: 57%; width: 2%;' src='res/stadium.png' title='Комарський стадіон' alt=''>
+<!--///////////////////////////////            Відстань-->
+			<img id='km' class='hide_km' style='position: absolute; top: 0; left: 0; z-index: 5; width: 100%;' src='res/km.png' title='' alt=''>
+		</section>
+		<section>
+			<div style='text-align: center; margin-top: 20px; z-index: 1900;'>
+				<div  style='width: 100%; display: inline-block; vertical-align:top;'>
+					<img src='res/niotech.png' title='All rights reserved. &copy; 2021
+Write to me: woxx13@gmail.com' />
+				</div>
+				<div  style='width: 100%;vertical-align:top;'>
+					<!-- Default Statcounter code for osmskt
+						https://osmskt.github.io/ -->
+						<script type="text/javascript">
+						var sc_project=12482921; 
+						var sc_invisible=0; 
+						var sc_security="e921a874"; 
+						var scJsHost = "https://";
+						document.write("<sc"+"ript type='text/javascript' src='" +
+						scJsHost+
+						"statcounter.com/counter/counter.js'></"+"script>");
+						</script>
+						<noscript><div class="statcounter"><a title="Web Analytics"
+						href="https://statcounter.com/" target="_blank"><img
+						class="statcounter"
+						src="https://c.statcounter.com/12482921/0/e921a874/0/"
+						alt="Web Analytics"></a></div></noscript>
+					<!-- End of Statcounter Code -->
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
