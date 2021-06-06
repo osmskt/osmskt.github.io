@@ -11,6 +11,12 @@
 		<link rel='stylesheet' 				href='css/reset.css'>
 		<link rel='stylesheet' 				href='css/style_new.css'>
 		<link rel='shortcut icon' 			href='favicon.ico'>
+		<script>
+			window.onload = function()
+			{
+				document.querySelector(".showmenu").click();
+			}
+		</script>
 	</head>
 	<body>
 		<!--Многоуровневое, выдвигающееся из-за края экрана при нажатии на логотип, меню. Начало-->
@@ -229,5 +235,11 @@ Write to me: woxx13@gmail.com' />
 				</div>
 			</div>
 		</section>
+		<script>
+		  let hide_menu = setTimeout(function()
+		  {
+			document.querySelector(".showmenu").click();
+		  }, 2000)
+		</script>
 	</body>
 </html>
