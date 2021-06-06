@@ -4,18 +4,11 @@
 */
 'use strict;'
 
-// window.onload = function()
-// {
-	// let button = document.querySelector('#ggg');
-	// button.addEventListener('checked', function() {
-	// alert('message');
-// });
 
-// button.addEventListener('mouseover', function() {
-	// let clickEvent = new Event('checked'); // создаем событие
-	// this.dispatchEvent(clickEvent); // имитируем клик на кнопку
-// });
-// }
+window.onload = function()
+{
+	document.querySelector(".showmenu").click();
+}
  function toggle_visibility(class_name)
  {
 		let elements = document.querySelectorAll(class_name);
