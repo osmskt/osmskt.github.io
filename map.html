@@ -24,6 +24,7 @@
 				<li><a href="#">Об’єкти туризму</a></li>
 				<li><a href="#" onclick='toggle_visibility(".hide_stadium");'>Об’єкти спорту</a></li>
 				<li><a href="#" onclick='toggle_visibility(".hide_km");'>Відстань(км)</a></li>
+				<li><a href="index_new.html" target='_self'>До Головної</a></li>
 			</ul>
 		</nav>
 <!--Многоуровневое, выдвигающееся из-за края экрана при нажатии на логотип, меню. Конец-->
@@ -31,7 +32,6 @@
 			<img style='width: 100%;' src='res/map.png' title='Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ.
 Для керування натисніть на значок меню зліва-вгорі.' alt=''/>
 <!--///////////////////////////////            Школи-->
-
 			<img id='zg_school'  onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";' class='hide_edu' style='position: absolute; top: 9%; left: 43%; width: 2%;' src='res/school.png' title='Зеленогайська школа
 76 учнів' alt=''>
 			<img id='pd_school' onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";'  class='hide_edu' style='position: absolute; top: 36%; left: 48%; width: 2%;' src='res/school.png' title='Піддубненська школа
@@ -98,11 +98,6 @@ Write to me: woxx13@gmail.com' />
 				</div>
 			</div>
 		</section>
-		<script>
-		  let hide_menu = setTimeout(function()
-		  {
-			document.querySelector(".showmenu").click();
-		  }, 2000)
-		</script>
+		<script src='js/hide_menu.js'></script>
 	</body>
 </html>
