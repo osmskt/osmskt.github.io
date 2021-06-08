@@ -85,6 +85,36 @@ body
 	margin: 			20px 1% 0;
 	width:				200px;
 }
+.football
+{
+	background: 		url(../res/football_wow.jpg);
+}
+.img_wow
+{
+	position: 			relative;
+	display: 			inline-block ;
+	width: 				200px; 								/* Ширина рисунка */
+    height: 			200px; 								/*Высота рисунка */
+	margin: 			20px 3% 0;
+	transition: 		1s opacity;
+}
+.img_wow:after
+{
+	content: 			"";
+	background: 		inherit;
+	position: 			absolute;
+	top: 				0;
+	left: 				0;
+	bottom: 			0;
+	right: 				0;
+	background-position:-200px 0px;
+	opacity: 			0;
+	transition: 		1s opacity;
+}
+.img_wow:hover:after
+{
+    opacity:			1;
+}
 /****************************************		Свойства фото. Конец		*/
 #floatTip 
 {
