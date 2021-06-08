@@ -7,7 +7,7 @@
 		<meta http-equiv='x-ua-compatible' 	content='ie=edge'>
 		<meta name='author' 				content='Kuzmenko Vadim aka woxx'>
 		<meta name='description' 			content='Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ'>
-		<meta name='keywords' 				content='освіта,сім’я,молодь,спорт,культура,туризм,комарська,сільська,рада'>
+		<meta name='keywords' 				content='освіта,сім’я,молодь,спорт,культура,туризм,комарська,сільська,рада,школа,дитячий,садок,мистецтво,футбол,маршрут,шкільний,автобус,відстань,об’єкт,центр,клуб,будинок'>
 		<link rel='stylesheet' 				href='css/reset.css'>
 		<link rel='stylesheet' 				href='css/style_map.css'>
 		<link rel='shortcut icon' 			href='favicon.ico'>
@@ -17,7 +17,7 @@
 <!--Многоуровневое, выдвигающееся из-за края экрана при нажатии на логотип, меню. Начало-->
 		<nav>
 			<input type="checkbox" id="showmenu"/>
-			<label for="showmenu" class="showmenu"><img id='ggg' src='res/logo.png' alt='' title='Меню'></label>
+			<label for="showmenu" class="showmenu"><img src='res/logo.png' alt='' title='Меню'></label>
 			<ul>
 				<li><a href="#" onclick='toggle_visibility(".hide_edu");'>Об’єкти освіти</a></li>
 				<li><a href="#" onclick='toggle_visibility(".hide_club");'>Об’єкти культури</a></li>
@@ -29,8 +29,7 @@
 		</nav>
 <!--Многоуровневое, выдвигающееся из-за края экрана при нажатии на логотип, меню. Конец-->
 		<section class='block_0' id='block_1'>
-			<img style='width: 100%;' src='res/map.png' title='Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ.
-Для керування натисніть на значок меню зліва-вгорі.' alt=''/>
+			<img style='width: 100%;' src='res/map.png' title='Мапа об’єктів освіти, культури, туризму і спорту Комарської ТГ' alt=''/>
 <!--///////////////////////////////            Школи-->
 			<img id='zg_school'  onmouseover='this.style.width = "50px";' onmouseout='this.style.width = "2%";' class='hide_edu' style='position: absolute; top: 9%; left: 43%; width: 2%;' src='res/school.png' title='Зеленогайська школа
 76 учнів' alt=''>
@@ -80,7 +79,7 @@ Write to me: woxx13@gmail.com' />
 				<div  style='width: 100%;vertical-align:top;'>
 					<!-- Default Statcounter code for osmskt
 						https://osmskt.github.io/ -->
-						<script type="text/javascript">
+						<script>
 						var sc_project=12482921; 
 						var sc_invisible=0; 
 						var sc_security="e921a874"; 
