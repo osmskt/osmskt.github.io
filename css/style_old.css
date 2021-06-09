@@ -12,7 +12,16 @@ body
 h2
 {
 	color:				#336666;
+	text-align:			left;
+}
+h3
+{
+	color:				#336666;
 	text-align:			center;
+}
+p
+{
+	margin-left:		5%;
 }
 img
 {
@@ -23,14 +32,13 @@ img
 	text-align:			center;
 	margin: 			2% 0 4%;
 }
-
 a:link
 {
 	color:				#0f211a;
 }
 a:visited
 {
-	color:				#336666;
+	color:				#0f211a;
 }
 a:hover
 {
